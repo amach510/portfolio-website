@@ -275,3 +275,15 @@ button:focus,
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+/* table */
+table, th, td {
+  border: 1px solid var(--lighterFontColor);
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+
+.table-about-me {
+  margin: 0 auto;
+}
