@@ -99,7 +99,7 @@
               transition-timing-function: ease-in-out;
     }
   
-    #button-cv{
+    #button {
       margin: 0 auto;
       display: block;
       -webkit-box-orient: vertical;
