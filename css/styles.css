@@ -126,11 +126,6 @@ button:focus,
     opacity: 0.8;
   }
 
-.button__secondary {
-    background-color: var(--lighterOrange);
-    color: var(--lighterFontColor);
-  }
-
 /* profile */
 
 .profile {
