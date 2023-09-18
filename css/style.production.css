@@ -99,6 +99,17 @@
               transition-timing-function: ease-in-out;
     }
   
+    #button-cv{
+      margin: 0 auto;
+      display: block;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      max-width: 200px;
+      text-align: center;
+    }
+
   button:hover,
   button:focus,
   .button:hover,

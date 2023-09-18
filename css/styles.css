@@ -25,6 +25,7 @@ Second Button Color: #e0b354;
   --font-weight-regular: 400;
   --font-size-normal: 16px;
   --font-family:'Montserrat', sans-serif;
+  --text-center: center;
 }
 
 * {
@@ -116,6 +117,17 @@ a:active {
     transition-timing-function: ease-in-out;
   }
 
+  #button-cv{
+    margin: 0 auto;
+    display: block;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 200px;
+    text-align: var(--text-center);
+  }
+
 button:hover,
 button:focus,
 .button:hover,
@@ -198,7 +210,7 @@ button:focus,
   clear: both;
   display: flex;
   flex-direction:column;
-  text-align: center;
+  text-align: var(--text-center);
   }
 
 /* media styling */
@@ -276,7 +288,7 @@ table, th, td {
   border: 1px solid var(--lighterFontColor);
   border-collapse: collapse;
   padding: 5px;
-  text-align: center;
+  text-align: var(--text-center);
 }
 
 .table-about-me {
