@@ -28,6 +28,23 @@ Second Button Color: #e0b354;
   --text-center: center;
 }
 
+main {
+  opacity: 0;
+  transform: scale(0.9);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 * {
   box-sizing: border-box;
   }
@@ -281,6 +298,23 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/*grid for work.html animation*/
+.grid {
+  opacity: 0; /* Start with opacity 0 */
+  animation: fadeInGrid 1s ease-in forwards; /* Apply the fadeInGrid animation */
+}
+
+@keyframes fadeInGrid {
+  from {
+    opacity: 0; /* Start with opacity 0 */
+    transform: translateY(-20px); /* Optional: Move the grid up slightly */
+  }
+  to {
+    opacity: 1; /* End with opacity 1 */
+    transform: translateY(0); /* Optional: Move the grid to its original position */
+  }
 }
 
 /* table */
